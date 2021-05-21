@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}.logoizq{
+    justify-content: flex-start;
+}
+
+
+.botones{
+    padding: 10px;
+    background-color: rgb(133, 56, 133); 
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 768px) {
+
+    .container{
+        background: white;
+        padding: 10px;
+
+    }
+    .container__textoyfoto{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        max-width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    
+}
+
+.titulo1{
+    font-size: 80px;
+}
+.titulo2 h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+}
+.container p{
+    color: rgba(0, 0, 0, 0.801);
+}
+.button{
+    color: white;
+    background: rgb(133, 56, 133);
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    
+}
+
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        max-width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+}.servicio img{
+    max-width: 236px;
+}
+
+.abajo{
+    padding: 90px;
+    background: rgb(133, 56, 133); 
+    text-align: center;
+
+}.boton2{
+    padding: 10px ;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: rgb(133, 56, 133);
+    text-decoration: none;
+}.boton2:hover{
+    color: rgb(133, 56, 133);
+}
+
+.abajo h2{
+    color: white;
+}
+
+.footer{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    text-align: center;
+}
