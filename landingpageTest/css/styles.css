@@ -12,14 +12,27 @@ body{
 a{
     text-decoration: none;
 }
+p{
+    padding: 5px;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
-
-.header{
+.header__bt{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-}.logoizq{
+}.header__img{
+    display: flex;
     justify-content: flex-start;
 }
 
@@ -30,6 +43,7 @@ a{
     border-radius: 5px;
     text-decoration: none;
     color: white;
+      
 }
 
 @media (min-width: 768px) {
@@ -44,6 +58,7 @@ a{
         grid-template-columns: 60% 40%;
         max-width: 80%;
         margin: 0 auto 0 auto;
+
     }
     
 }
@@ -68,7 +83,7 @@ a{
     padding: 10px;
     border-radius: 6px;
     text-decoration: none;
-    
+    margin: 5px;
 }
 
 @media (min-width: 768px) {
@@ -78,11 +93,18 @@ a{
         column-gap: 20px;
         max-width: 80%;
         margin: 0 auto 0 auto;
+
     }
 
-}.servicio img{
+}
+.servicio img{
     max-width: 236px;
 }
+.servicio p{
+    text-align: center;
+}
+
+
 
 .abajo{
     padding: 90px;
@@ -93,12 +115,14 @@ a{
     padding: 10px ;
     background: white;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
     color: rgb(133, 56, 133);
     text-decoration: none;
 }.boton2:hover{
     color: rgb(133, 56, 133);
+}
+
+.partederecha img{
+    max-width: 100%;
 }
 
 .abajo h2{
